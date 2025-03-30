@@ -16,12 +16,13 @@ body{
 
 .clock-container{
     backdrop-filter: blur(8px);
-    width: 100vw; /*I might change this later*/
+    width: 60vw; /*I might change this later*/
+    padding: 10px 0;
 }
 
 .clock{
-    color: rgba(255, 255, 255, 0.5);;
-    font-size: 6rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 5rem;
     font-weight: bold;
     font-family: monospace;
     text-shadow: 3px 3px 5px rgb(71, 70, 70);
