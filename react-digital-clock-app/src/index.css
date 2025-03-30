@@ -1,0 +1,29 @@
+
+
+body{
+    background-image: url(assets/DoomTDA.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    min-height: 120vh;
+    align-items: center;
+}
+
+.clock-container{
+    backdrop-filter: blur(8px);
+    width: 100vw; /*I might change this later*/
+}
+
+.clock{
+    color: rgba(255, 255, 255, 0.5);;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px rgb(71, 70, 70);
+    text-align: center;
+}
